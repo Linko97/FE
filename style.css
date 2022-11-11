@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.velozar{
+    height: 100vh;
+    background: #F4F9E2;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 118px 320px 150px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+nav > ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+nav > ul a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul a:hover {
+    border-bottom: 1px solid black;
+}
+
+.velozar button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    background: #F9B640;
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: italic;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.velozar button:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;       
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.main_text{
+    display: grid;
+    grid-template-rows: 90px 280px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    line-height: 1.8;
+}
+
+.main_text > h1 {
+   font-size: 36px;
+   font-weight: 500;
+   font-style: italic; 
+   color: #22356F;
+   line-height: 27.66px;   
+}
+.main_text > p {
+    font-size: 24px;
+    color: #22356F;
+    line-height: 35.46px; 
+ }
+
+.about{
+    background: #62D0DF;    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 604px;
+}
+.about_text {
+    display: grid;
+    grid-template-rows: 100px;    
+    color: white;
+    font-style: italic;
+    margin: 60px;
+}
+.about_text > h3 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+.about_text > p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 50px;
+    
+}
+.text{
+    display: grid;
+    background: white;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #22356F;
+    font-style: italic;
+    font-size: 24px;
+    grid-template-rows: 100px 100px;
+    align-content: center;
+    line-height: 34.04px;    
+}
+.services {
+    height: 480px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;      
+}
+.left{
+    background: #22356F;
+    font-style: italic;
+    font-size: 30px;  
+    padding: 150px 50px 0px 50px;  
+}
+.center{
+    background: #0052C1;
+    font-style: italic;
+    font-size: 30px;
+    padding: 150px 50px 0px 50px;
+    
+}
+.right{
+    background: #76B58B;
+    font-style: italic;
+    font-size: 30px;
+    padding: 150px 50px 0px 50px;  
+}
+
+.rent {
+    display: grid;
+    grid-template-columns: 1fr 5fr;    
+}
+
+.rent_text{
+    display: grid;
+    grid-template-rows: 100px;    
+    color: #22356F;
+    font-style: italic;
+    margin: 60px;
+    font-size: 36px;
+    align-content: center;
+    line-height: 53.19px;
+    font-weight: 400;
+}
